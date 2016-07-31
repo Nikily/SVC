@@ -25,13 +25,9 @@ namespace SimpleCalculator
                 
                 input = Console.ReadLine();
 
-               
-
                 string[] numbers = Regex.Split(input, @"[\-+\++\*+\/+]");
                 string[] calcOperators = Regex.Split(input, @"\d+");
                 var opList = new List<string>();
-
-               
 
                 for (int i = 0; i < calcOperators.Length; i++)
                 {
