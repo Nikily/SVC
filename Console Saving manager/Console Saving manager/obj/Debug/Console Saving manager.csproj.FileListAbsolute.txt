@@ -1,0 +1,15 @@
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe.config
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.pdb
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.exe
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.pdb
+C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe.config
+C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.exe
+C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.pdb
+C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe
+C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.pdb
+C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.csprojResolveAssemblyReference.cache
+C:\Users\Nikili\Source\Repos\SVC\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe.config
+C:\Users\Nikili\Source\Repos\SVC\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.exe
+C:\Users\Nikili\Source\Repos\SVC\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.pdb
