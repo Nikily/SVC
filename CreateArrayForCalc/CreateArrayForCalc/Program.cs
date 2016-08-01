@@ -13,25 +13,38 @@ namespace CreateArrayForCalc
         {
             Console.WriteLine("***** Welcome to a really cool calculator *****");
 
-            string exit = "quit";
-            string input;
+            Calculate newCalculation = new Calculate();
+            newCalculation.Result();
+
+            Console.ReadLine();
+
+        }
+    }
+
+   class Calculate
+    {
+
+      public float Result()
+        { 
+      public  string exit = "quit";
+      public  string input;
 
             do
             {
-                input = Console.ReadLine();
-                input = input.Replace(" ", "");
+               public  input = Console.ReadLine();
+               public input = input.Replace(" ", "");
 
                 if (input.ToLower() == exit)
                 { Environment.Exit(0); }
 
-                char[] operators = new char[] { '+', '-', '*', '/' };
-                string[] strnumbers = input.Split(operators);
-                string[] strOperators = Regex.Split(input, @"\d+");
+   public char[] operators = new char[] { '+', '-', '*', '/' };
+   public  string[] strnumbers = input.Split(operators);
+   public  string[] strOperators = Regex.Split(input, @"\d+");
 
 
-                string FinOpString = "";
+    string FinOpString = "";
 
-                for (int i = 0; i < strOperators.Length; i++)
+                for (int i = 0; i <strOperators.Length; i++)
                 {
 
                     if (strOperators[i] == "+" || strOperators[i] == "-" || strOperators[i] == "*" || strOperators[i] == "/")
@@ -40,32 +53,31 @@ namespace CreateArrayForCalc
                     }
                 }
 
-                char[] operatorsArray = FinOpString.ToCharArray();
-
+                public char[] operatorsArray = FinOpString.ToCharArray();
 
                 try
                 {
 
                     float[] floatNumbers = new float[strnumbers.Length];
-                    for (int i = 0; i < strnumbers.Length; i++)
+                    for (public int i = 0; i<strnumbers.Length; i++)
                     {
                         floatNumbers[i] = float.Parse(strnumbers[i]);
                     }
 
 
 
-                    float result = float.Parse(strnumbers[0]);
-                    int n = 0;
+                    public float result = float.Parse(strnumbers[0]);
+public int n = 0;
                     if (strnumbers.Length == 1)
                     {
-                        Console.WriteLine("Please enter more than one value!");
+                       return Console.WriteLine("Please enter more than one value!");
                     }
                     else
                     {
-                        while (n < 1)
+                        while (n< 1)
 
                         {
-                            for (int i = 0; i < operatorsArray.Length; i++)
+                            for (public int i = 0; i<operatorsArray.Length; i++)
                             {
 
                                 if (operatorsArray[i] == '+')
@@ -77,7 +89,8 @@ namespace CreateArrayForCalc
                                 if (operatorsArray[i] == '/')
                                 { result /= floatNumbers[i + 1]; }
                                 n++;
-                                Console.WriteLine("Result: {0}\nEnter new values to calculate or quit by typing 'quit'", result);
+                                //Console.WriteLine("Result: {0}\nEnter new values to calculate or quit by typing 'quit'", result);
+                                return result;
                             }
 
                         }
@@ -95,8 +108,8 @@ namespace CreateArrayForCalc
                 }
                
             
-         }while (input.ToLower() != exit);
-         Console.ReadLine();
+         } while (input.ToLower() != exit);
+         
         }
     }
 }
