@@ -1,0 +1,5 @@
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\bin\Release\Console Saving manager.exe.config
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\bin\Release\Console Saving manager.exe
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\bin\Release\Console Saving manager.pdb
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\obj\Release\Console Saving manager.exe
+C:\Users\Nikola\Documents\dot.net\ProCSharp5AndTheNET4.5Framework\codeExercises\Console Saving manager\Console Saving manager\obj\Release\Console Saving manager.pdb
