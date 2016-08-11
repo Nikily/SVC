@@ -16,6 +16,7 @@ namespace CreateArrayForCalc
         public static char[] operatorsArray;
         public static bool valid;
         public static float[] floatNumbers;
+        public static string exit;
 
 
         public static bool ValidateInput(string input)
@@ -29,6 +30,7 @@ namespace CreateArrayForCalc
                 strnumbers = input.Split(operators);
                 strOperators = Regex.Split(input, @"\d+");
 
+                FinOpString = "";
 
                 floatNumbers = new float[strnumbers.Length];
 
@@ -51,20 +53,23 @@ namespace CreateArrayForCalc
                     }
 
                 }
-                valid = true;
+                //valid = true;
 
                 if (operatorsArray == null || floatNumbers == null)
                 {
                     Console.Clear();
                     Console.WriteLine("***** Welcome to a really cool calculator *****\n");
                     Console.WriteLine("Enter more than one value..");
-                    valid = false;
+                    return false;
                 }
                 else
                 {
-                    valid = true;
+                    return true;
+                        
                 }
 
+                //Calculate NewCalculation = new Calculate();
+                //NewCalculation.Result();
             }
 
             catch (System.OverflowException)
