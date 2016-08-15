@@ -12,30 +12,17 @@ namespace CreateArrayForCalc
         static void Main(string[] args)
         {
             Console.WriteLine("***** Welcome to a really cool calculator *****");
-            //string input;
+           
             int n = 0;
             while (n < 1) { 
-                while (Validatestr.ValidateInput(Console.ReadLine())) 
-            {
-                // input = Console.ReadLine();
-                //if (Validatestr.ValidateInput(Console.ReadLine()))
-                //{
-               
-                    Calculate NewCalculation = new Calculate();
-                    NewCalculation.Result();
+                            while (Validatestr.ValidateInput(Console.ReadLine())) 
+                                {
+                                Calculate NewCalculation = new Calculate();
+                                NewCalculation.Result();
+
+                                }
                 
-                    
-                    //input = "";
-                //}
-                //else
-                //{
-                //    input = Console.ReadLine();
-                //}
-
-            }
-            }
-
-            //Console.ReadLine();
+                         }
 
         }
     }  
