@@ -13,3 +13,7 @@ C:\Users\Nikili\Documents\c#\codeExercises\Console Saving manager\Console Saving
 C:\Users\Nikili\Source\Repos\SVC\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe.config
 C:\Users\Nikili\Source\Repos\SVC\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.exe
 C:\Users\Nikili\Source\Repos\SVC\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.pdb
+C:\Users\Nikili\Source\Repos\SVC\SimpleCalculator\Console Saving manager\Console Saving manager\bin\Debug\Console Saving manager.exe.config
+C:\Users\Nikili\Source\Repos\SVC\SimpleCalculator\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.exe
+C:\Users\Nikili\Source\Repos\SVC\SimpleCalculator\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.pdb
+C:\Users\Nikili\Source\Repos\SVC\SimpleCalculator\Console Saving manager\Console Saving manager\obj\Debug\Console Saving manager.csprojResolveAssemblyReference.cache

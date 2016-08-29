@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+using System.Collections.ObjectModel;
 
 namespace CreateArrayForCalc
 {
@@ -24,12 +25,16 @@ namespace CreateArrayForCalc
         {
             try
             {
+                
                 input = input.Replace(" ", "");
                 if (input.ToLower() == "quit")
                 {
                     Environment.Exit(0);
                 }
 
+               
+                operatorsArray = null;
+                floatNumbers = null;
 
                 operators = new char[] { '+', '-', '*', '/' };
                 strNumbers = input.Split(operators);
@@ -94,15 +99,22 @@ namespace CreateArrayForCalc
                     Console.WriteLine("Enter more than one value..");
                     return false;
                 }
-                else if (operatorsArray.Length == floatNumbers.Length && strOperators[0] != "-")
+                else if (operatorsArray.Length == floatNumbers.Length && operatorsArray[0] != '-')
                 {
                     Console.WriteLine("Invalid expression..");
+                    return false;
+                }
+                else if (operatorsArray.Length > floatNumbers.Length)
+                {
+                    Console.WriteLine("Too many operators. Try again..");
                     return false;
                 }
          
                 else
                 {
+                    
                     return true;
+
                 }
 
              

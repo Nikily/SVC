@@ -11,7 +11,7 @@ namespace CreateArrayForCalc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("***** Welcome to a really cool calculator *****");
+            Console.WriteLine("***** Welcome to a really cool calculator *****\n\nEnter values to calculate.. ");
            
             int n = 0;
             while (n < 1) { 

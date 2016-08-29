@@ -24,22 +24,22 @@ namespace Console_Saving_manager
                 input = Console.ReadLine();
                 bool inputBool = float.TryParse(input, out amountValue);
 
-                if (inputBool == true) 
+                if (inputBool == true)
                 {
 
                     float[] history; // = new float[] 
-            
-                        }
 
-                    if ((totalAmount + amountValue) < 1000)
-                    {
-                        totalAmount += amountValue;
-                        if (totalAmount < 100) { Console.WriteLine("Great!! Add more value, your current balance total is only: {0:C}", totalAmount); }
-                        else { Console.WriteLine("Your current balance total is: {0:C}, add more if you like please", totalAmount); }
-                    }
-
-                    else { Console.WriteLine("Your total would be over $ 1000 ({0:C}), don't you think that would be too much? Add less, or quit by typing 'quit'", totalAmount + amountValue); }
                 }
+
+                if ((totalAmount + amountValue) < 1000)
+                {
+                    totalAmount += amountValue;
+                    if (totalAmount < 100) { Console.WriteLine("Great!! Add more value, your current balance total is only: {0:C}", totalAmount); }
+                    else { Console.WriteLine("Your current balance total is: {0:C}, add more if you like please", totalAmount); }
+                }
+
+                else { Console.WriteLine("Your total would be over $ 1000 ({0:C}), don't you think that would be too much? Add less, or quit by typing 'quit'", totalAmount + amountValue); }
+            };
                 else { Console.WriteLine("Please enter a numerical value"); }
                     
  
