@@ -12,7 +12,7 @@ namespace CreateArrayForCalc
     {
       
         public static float result;
-        public static int counter;
+        //public static int counter;
         public static Collection<float> history;
         
         public void Result()
@@ -63,7 +63,7 @@ namespace CreateArrayForCalc
                 }
             
             history.Add(result);
-            counter += 1;
+            //counter += 1;
             Console.Clear();
             Console.WriteLine("***** Welcome to a really cool calculator *****\n");
             string resultString = "\nEnter new values to calculate or quit by typing 'quit'";
@@ -75,13 +75,20 @@ namespace CreateArrayForCalc
                 y = history.Count - 1;
                 if (history.Count <= 5)
                 {
-                    foreach (float item in history)
-                    {
-                        Console.WriteLine("{0}. {1}", history.IndexOf(item) + 1, item);
-                        
-                    }
+                    int z = history.Count;
+                    Console.WriteLine("{0}. {1}", z, history[z - 1]);
+                    z++;
+                    
                 }
-    
+                else if (history.Count >= 5)
+                {
+                    int z = history.Count;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        Console.WriteLine("{0}. {1}", z, history[z - 1]);
+                        z--;
+                    }
+                }    
             }
             Console.WriteLine(resultString);
 
